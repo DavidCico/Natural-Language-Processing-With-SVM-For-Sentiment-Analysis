@@ -5,12 +5,12 @@
 <p align="justify"> There are a significant number of steps to carry out between viewing a text document on a web site and using its content as input to an automated trading strategy. In particular the following steps must be carried out:</p>
 
 <ul>
-    <li>Automate the download of multiple, continually generated articles from external sources at a potentially high throughput.</li>
+    <li><p align="justify">Automate the download of multiple, continually generated articles from external sources at a potentially high throughput.</p></li>
     <li><p align="justify">Parse these documents for the relevant sections of text/information that require analysis, even if the format differs between documents.</p></li>
-    <li>Convert arbitrarily long passages of text (over many possible languages) into a consistent data structure that can be understood by a classification system.</li>
-    <li>Determine a set of groups (or labels) that each document will be a member of. Examples include “positive” and “negative” or “bullish” and “bearish”.</li>
-    <li>Create a training corpus of documents that have known labels associated with them. For instance, a thousand financial articles may need tagging with the “bullish” or “bearish” labels.</li>
-    <li></li>
+    <li><p align="justify">Convert arbitrarily long passages of text (over many possible languages) into a consistent data structure that can be understood by a classification system.</p></li>
+    <li><p align="justify">Determine a set of groups (or labels) that each document will be a member of. Examples include “positive” and “negative” or “bullish” and “bearish”.</p></li>
+    <li><p align="justify">Create a training corpus of documents that have known labels associated with them. For instance, a thousand financial articles may need tagging with the “bullish” or “bearish” labels.</p></li>
+    <li><p align="justify"> </p></li>
 
 
 

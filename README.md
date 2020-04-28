@@ -15,6 +15,7 @@
     <li><p align="justify">Assess the “classification rate” and other associated performance metrics of the classifier.</p></li>
     <li><p align="justify">Integrate the classifier into an automated trading system, either by means of filtering other trade signals or generating new ones.</p></li>
     <li><p align="justify">Continually monitor the system and adjust it as necessary if its performance begins to degrade.</p></li>
+</ul>
 
 <p align="justify">In this particular script we make use of a given dataset that already comes with its own provided labels. This will allow us to concentrate on the implementation of the classification pipeline, rather than spending a substantial amount of time obtaining and tagging documents. While beyond the scope of this study, it is possible to make use of Python libraries, such as <a href="https://scrapy.org/">ScraPy</a> and <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>, to automatically obtain many web-based articles and effectively extract their text-based data from the HTML making up the page data. Under the assumption that we have a document corpus that is pre-labelled (the process of which will be outlined below), we will begin by taking the training corpus and incorporating it into a Python data structure that is suitable for pre-processing and consumption via the classifier.</p>
 

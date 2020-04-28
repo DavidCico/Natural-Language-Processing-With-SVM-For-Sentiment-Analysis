@@ -2,9 +2,8 @@
 
 
 
-There are a significant number of steps to carry out between viewing a text document on a web
-site and using its content as input to an automated trading strategy. In particular the following
-steps must be carried out:
+<p align="justify"> There are a significant number of steps to carry out between viewing a text document on a web site and using its content as input to an automated trading strategy. In particular the following steps must be carried out:</p>
+
 • Automate the download of multiple, continually generated articles from external sources at
 a potentially high throughput
 • Parse these documents for the relevant sections of text/information that require analysis,
@@ -35,9 +34,6 @@ extract their text-based data from the HTML making up the page data.
 Under the assumption that we have a document corpus that is pre-labelled (the process of
 which will be outlined below), we will begin by taking the training corpus and incorporating it
 into a Python data structure that is suitable for pre-processing and consumption via the classifier.
-
-# Buy-and-hold investment study
-<p align="justify">This code shows an example of a buy-and-hold investment of an ETF using Python, and Monte Carlo methods to predict the investment return in the future.</p>
 
 ## Getting Started
 

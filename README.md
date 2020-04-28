@@ -10,28 +10,13 @@
     <li><p align="justify">Convert arbitrarily long passages of text (over many possible languages) into a consistent data structure that can be understood by a classification system.</p></li>
     <li><p align="justify">Determine a set of groups (or labels) that each document will be a member of. Examples include “positive” and “negative” or “bullish” and “bearish”.</p></li>
     <li><p align="justify">Create a training corpus of documents that have known labels associated with them. For instance, a thousand financial articles may need tagging with the “bullish” or “bearish” labels.</p></li>
-    <li><p align="justify"> </p></li>
+    <li><p align="justify">Train the classifier(s) on this corpus by means of a software library such as Scikit-Learn.</p></li>
+    <li><p align="justify">Use the classifier to label new documents, in an automated, ongoing manner.</p></li>
+    <li><p align="justify">Assess the “classification rate” and other associated performance metrics of the classifier.</p></li>
+    <li><p align="justify">Integrate the classifier into an automated trading system, either by means of filtering other trade signals or generating new ones.</p></li>
+    <li><p align="justify">Continually monitor the system and adjust it as necessary if its performance begins to degrade.</p></li>
 
-
-
-Train the classifier(s) on this corpus by means of a software library such as Scikit-Learn
-(which we will be using below)
-• Use the classifier to label new documents, in an automated, ongoing manner.
-• Assess the “classification rate” and other associated performance metrics of the classifier
-• Integrate the classifier into an automated trading system, either by means of filtering other
-trade signals or generating new ones.
-• Continually monitor the system and adjust it as necessary if its performance begins to
-degrade
-In this particular section we will avoid discussion of how to download multiple articles from
-external sources and make use of a given dataset that already comes with its own provided labels.
-This will allow us to concentrate on the implementation of the classification pipeline, rather than
-spend a substantial amount of time obtaining and tagging documents.
-While beyond the scope of this section, it is possible to make use of Python libraries, such
-as ScraPy and BeautifulSoup, to automatically obtain many web-based articles and effectively
-extract their text-based data from the HTML making up the page data.
-Under the assumption that we have a document corpus that is pre-labelled (the process of
-which will be outlined below), we will begin by taking the training corpus and incorporating it
-into a Python data structure that is suitable for pre-processing and consumption via the classifier.
+<p align="justify">In this particular script we make use of a given dataset that already comes with its own provided labels. This will allow us to concentrate on the implementation of the classification pipeline, rather than spending a substantial amount of time obtaining and tagging documents. While beyond the scope of this study, it is possible to make use of Python libraries, such as <a href="https://scrapy.org/">ScraPy</a> and <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>, to automatically obtain many web-based articles and effectively extract their text-based data from the HTML making up the page data. Under the assumption that we have a document corpus that is pre-labelled (the process of which will be outlined below), we will begin by taking the training corpus and incorporating it into a Python data structure that is suitable for pre-processing and consumption via the classifier.</p>
 
 ## Getting Started
 

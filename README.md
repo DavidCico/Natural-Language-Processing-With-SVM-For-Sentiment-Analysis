@@ -48,9 +48,9 @@ https://scikit-learn.org/stable/install.html
 
 ### File descriptions
 <ul>
-    <li>'<em></em>' which is a univariate time series of the price history of the ETF.</li>
-    <li>'<em></em>' which contains the main procedure, as well as the data pre-processing of the xlsx file 'ETF_data.xlsx'</li>
-    <li>'<em></em>' which contains the different algorithms used for comparison.</li>
+    <li>'<em>Data</em>' directory contains different files on which such NLP work can be carried out.</li>
+    <li>'<em>NLP_SVM_analysis.pdf</em>' contains the explanation about how to carry such NLP studies, explaining the different steps taken in the code in depth, and the accuracy of the results obtained.</li>
+    <li>'<em>ReutersSVM.py</em>' which is the python script running the SVM model on document classification.</li>
 <li><div align="justify">'<em></em>'</div></li>
 <li><div align="justify">'<em></em>'</div></li>
 </ul>
@@ -59,7 +59,7 @@ https://scikit-learn.org/stable/install.html
 
 The different "<em>.py</em>" files need to be placed in the same folder for the main script to be run. The code is then ready to be used, and just requires running the following command:
 
-    python Main.py
+    python ReutersSVM.py
 
 ## Contributing
 

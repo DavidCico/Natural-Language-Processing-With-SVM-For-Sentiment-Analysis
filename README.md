@@ -25,7 +25,7 @@
 
 ### Prerequisites
 
-<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed and then SciPy for the statistical </p>
+<p align="justify">You need Python 3.x to run the following code.  You can have multiple Python versions (2.x and 3.x) installed on the same system without problems. Python needs to be first installed, then Scipy before installing Scikit-Learn for machine learning tools.</p>
 
 In Ubuntu, Mint and Debian you can install Python 3 like this:
 
@@ -35,24 +35,24 @@ Alongside Python, the SciPy packages are also required. In Ubuntu and Debian, th
 
     sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
-Finally, the latest release of Seaborn visualization package, which can be installed with pip:
+Finally, the latest release of Scikit-Learn machine learning package, which can be installed with pip:
     
-    pip install seaborn
+    pip install -U scikit-learn
 
 For other Linux flavors, OS X and Windows, packages are available at:
 
 http://www.python.org/getit/  
 https://www.scipy.org/install.html  
-https://seaborn.pydata.org/installing.html#installing
+https://scikit-learn.org/stable/install.html
 
 
 ### File descriptions
 <ul>
-    <li>'<em>ETF_data</em>' which is a univariate time series of the price history of the ETF.</li>
-    <li>'<em>Main.py</em>' which contains the main procedure, as well as the data pre-processing of the xlsx file 'ETF_data.xlsx'</li>
-    <li>'<em>Monte_Carlo_GBM.py</em>' which contains the different algorithms used for comparison.</li>
-<li><div align="justify">'<em>Post_processing.py</em>' where all the functions for post-processing (plots, information, descriptive statistics) are implemented.</div></li>
-<li><div align="justify">'<em>Analysis.pdf</em>', the PDF file where the different steps of the financial study are explained.</div></li>
+    <li>'<em></em>' which is a univariate time series of the price history of the ETF.</li>
+    <li>'<em></em>' which contains the main procedure, as well as the data pre-processing of the xlsx file 'ETF_data.xlsx'</li>
+    <li>'<em></em>' which contains the different algorithms used for comparison.</li>
+<li><div align="justify">'<em></em>'</div></li>
+<li><div align="justify">'<em></em>'</div></li>
 </ul>
 
 ### Running the program

@@ -51,8 +51,6 @@ https://scikit-learn.org/stable/install.html
     <li>'<em>Data</em>' directory contains different files on which such NLP work can be carried out.</li>
     <li>'<em>NLP_SVM_analysis.pdf</em>' contains the explanation about how to carry such NLP studies, explaining the different steps taken in the code in depth, and the accuracy of the results obtained.</li>
     <li>'<em>ReutersSVM.py</em>' which is the python script running the SVM model on document classification.</li>
-<li><div align="justify">'<em></em>'</div></li>
-<li><div align="justify">'<em></em>'</div></li>
 </ul>
 
 ### Running the program

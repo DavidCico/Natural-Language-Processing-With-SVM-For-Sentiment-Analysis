@@ -57,7 +57,7 @@ https://scikit-learn.org/stable/install.html
 
 The different "<em>.py</em>" files need to be placed in the same folder for the main script to be run. The code is then ready to be used, and just requires running the following command:
 
-    python ReutersSVM.py
+    python reuters_svm.py
 
 ## Contributing
 
